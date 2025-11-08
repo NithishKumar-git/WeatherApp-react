@@ -27,8 +27,8 @@ function Weather() {
   }
 
   function handleCancel() {
-    setCity("");          // reset input
-    setWeatherData(null); // clear results
+    setCity("");          
+    setWeatherData(null); 
   }
 
   return (
