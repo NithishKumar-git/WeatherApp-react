@@ -32,7 +32,7 @@ function Weather() {
   }
 
   return (
-    <div className="cont">
+    <div className="container col-12 col-sm-12 col-md-12  ">
       <form onSubmit={handleSearch}>
         <input
           type="text"
